@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+
 public class Element_DoubleClick {
 	@Test
 	public void doubleClick() {

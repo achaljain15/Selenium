@@ -4,13 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
+
 
 public class LibraryFunctionBrowsers {
-	
-	@Test
+	WebDriver driver;
 	public WebDriver launchBrowser(String browser) {
-		WebDriver driver= null;
+	//	WebDriver driver= null;
 		
 		if(browser.equals("Chrome"))
 		{
